@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b0ecca39-6aa3-4581-b942-6ccdc41ce5e4" name="situadmin@situsystem 2018-05-21 12:33:22" runUser="situsystem\situadmin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7c9ad0f2-ea2c-44c8-bd3b-1d316ab2402c">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="situadmin_situsystem 2018-05-21 12_33_22" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-05-21T12:33:22.5949782+00:00" queuing="2018-05-21T12:33:24.0066224+00:00" start="2018-05-21T12:33:24.1385861+00:00" finish="2018-05-21T12:33:24.7265893+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="helloworldtest\bin\debug\helloworldtest.dll" id="468ee5d5-e801-0e2d-ab24-fd2b6bbe7081">
+      <Execution id="e88c0ed7-428d-41ce-a98b-b3ba7031de1e" />
+      <TestMethod codeBase="C:/Users/situadmin/Documents/Visual Studio 2015/Projects/HelloWorld/HelloWorldTest/bin/Debug/HelloWorldTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="HelloWorldTest.UnitTest1, HelloWorldTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="468ee5d5-e801-0e2d-ab24-fd2b6bbe7081" executionId="e88c0ed7-428d-41ce-a98b-b3ba7031de1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e88c0ed7-428d-41ce-a98b-b3ba7031de1e" testId="468ee5d5-e801-0e2d-ab24-fd2b6bbe7081" testName="TestMethod1" computerName="situsystem" duration="00:00:00.0715018" startTime="2018-05-21T12:33:24.2406158+00:00" endTime="2018-05-21T12:33:24.6515756+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e88c0ed7-428d-41ce-a98b-b3ba7031de1e">
+    </UnitTestResult>
+  </Results>
+</TestRun>
